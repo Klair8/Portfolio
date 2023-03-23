@@ -1,30 +1,18 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
 import {Link} from 'react-router-dom'
+import Button from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
 
 
 const Header =()=>{
     return(
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-              <Container>
-                <Navbar.Brand link to='/home'>CS</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                  <Nav className="me-auto">
-                    <Link to ='/'> Home</Link>
-                    <Link to ='/About'>About</Link>
-                    <Link to='/Projects'>Projects</Link>
-                    <Link to='/Contact'>Contact</Link>
-                  </Nav>
-                  <Nav>
-                    <Link to='/Resume'>RESUME</Link>
-                  </Nav>
-                </Navbar.Collapse>
-              </Container>
-            </Navbar>
+      <Stack spacing={2} direction="row">
+        <Button component = {Link} to='/'>C/S</Button>
+      <Button variant="outlined" component = {Link} to='/'>Home</Button>
+      <Button variant="outlined" component = {Link} to='/About'>About</Button>
+      <Button variant="outlined" component = {Link} to='/Projects'>Projects</Button>
+      <Button variant="outlined" component = {Link} to='/Contact'>Contact</Button>
+      </Stack>
           );
         }
         
