@@ -22,6 +22,7 @@ function App() {
         <Route path='/Contact' element ={<Contact/>} />
         {/* <Route path ='/Resume' element ={<Resume/>}/> */}
       </Routes>
+    
       <Footer/>
     </div>
     </BrowserRouter>

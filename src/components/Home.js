@@ -7,11 +7,13 @@ import { FaGithub,FaLinkedinIn} from 'react-icons/fa';
 const Home =()=>{
     return(
         <div className='homePage'>
-            <h1>Hello!</h1>
-            <h3>I'am Claire Sacuto</h3>
-            <h4> Full Stack Developer</h4>
-            <FaGithub />
-            <FaLinkedinIn/>
+            <h1 style={{fontSize:70, fontFamily:'Quicksand-SemiBold'}}>Hello!</h1>
+            <h3 style={{fontSize:40, fontFamily:'Quicksand-Medium'}}>I am Claire Sacuto</h3>
+            <h4 style={{fontSize:30}}> Full Stack Developer</h4>
+           <br></br>
+           <br></br>
+            <FaGithub style={{fontSize:55}} />  
+            <FaLinkedinIn style={{fontSize:55}}/>
         </div>
     )
 }

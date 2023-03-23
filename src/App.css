@@ -1,9 +1,12 @@
 *{
+  font-family: Quicksand;
   background: rgb(163,132,242);
   background: linear-gradient(90deg, rgba(163,132,242,1) 34%, rgba(232,99,186,1) 80%);
 } 
 
-
+.me-auto{
+  text-decoration: none;
+}
 .homePage{
   margin-top: 20vh;
   display: flex;
@@ -11,6 +14,16 @@
   align-content: space-around;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.skills{
+  display: flex;
 }
 
 .footer{
