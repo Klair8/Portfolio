@@ -7,15 +7,26 @@
   text-decoration: none;
 }
 .homePage{
-  margin-top: 20vh;
+  margin-top: 10vh;
+  margin-left:5vh;
+  line-height: 0.8;
   display: flex;
-  flex-direction: column;
-  align-content: space-around;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.imgHomepage{
+  margin:15vh;
+}
+.links{
+  display: inline-flex;
+  
+  
 }
 
 .about{
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -46,7 +57,22 @@
   margin-left: 5vh;
 }
 
+.projectList{
+  display:flex;
+  margin-top: 10vh;
+  justify-content: center;
+}
+
+.card{
+  width: 18rem;
+  margin:5px;
+  padding:5px;
+  border:2px solid black;
+  border-radius:5px;
+}
+
 .contact{
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

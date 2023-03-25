@@ -1,38 +1,37 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Projects =()=>{
           return (
-            <div>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <div className='projectList'>
+            <Card>
+            <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Space-Invader</Card.Title>
                 <Card.Text>
                 Space Invader Game, created essentialy with Javascrip .
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a href="https://klair8.github.io/HACKATHON-1" class="btn"><i class="fab fa-github"></i> See Full Project</a>
               </Card.Body>
             </Card>
-             <Card style={{ width: '18rem' }}>
+             <Card>
              <Card.Img variant="top" src="holder.js/100px180" />
              <Card.Body>
                <Card.Title>Book Repertory</Card.Title>
                <Card.Text>
-                 Book Repertory, created with Node.js and REST API technic.
+                 Book Repertory, created with Node.js and REST API technic, with the use of the Google Book Api
                </Card.Text>
-               <Button variant="primary">Go somewhere</Button>
+               <a href="#" class="btn"><i class="fab fa-github"></i> See Full Project</a>
              </Card.Body>
            </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>NLP Projects</Card.Title>
               <Card.Text>
                 Learning process for Kids using Node.Js, React and Redux
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <a href="#" class="btn"><i class="fab fa-github"></i> See Full Project</a>
             </Card.Body>
           </Card>
           </div>
