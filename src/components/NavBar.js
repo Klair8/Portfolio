@@ -8,10 +8,10 @@ const Header =()=>{
     return(
       <Stack spacing={2} direction="row">
         <Button component = {Link} to='/'>C/S</Button>
-      <Button variant="outlined" component = {Link} to='/'>Home</Button>
-      <Button variant="outlined" component = {Link} to='/About'>About</Button>
-      <Button variant="outlined" component = {Link} to='/Projects'>Projects</Button>
-      <Button variant="outlined" component = {Link} to='/Contact'>Contact</Button>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/'>Home</Button>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/About'>About</Button>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/Projects'>Projects</Button>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/Contact'>Contact</Button>
       </Stack>
           );
         }

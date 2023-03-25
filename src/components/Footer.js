@@ -10,7 +10,6 @@ const Footer =()=>{
                 Design and built by Claire Sacuto
                 </Col>
             </Row>
-
         </Container>
 
     )

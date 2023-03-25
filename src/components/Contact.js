@@ -3,6 +3,7 @@ import {useState} from 'react'
 import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack'
 import Container from '@mui/material/Container'
+import Footer from './Footer'
 
 const Contact =()=>{
   const [showLinks,setShowLinks] = useState(false)
@@ -12,6 +13,7 @@ const Contact =()=>{
     setShowLinks(true);
   }
     return(
+        <div>
         <Container maxWidth="md">
             <div className='contact'>
                 <h1 style={{fontSize:70, fontFamily:'Quicksand-SemiBold'}}> Get In Touch</h1>
@@ -30,6 +32,8 @@ const Contact =()=>{
             </Stack>
             </div>
         </Container>
+        <Footer/>
+        </div>
     )
 }
 
