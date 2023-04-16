@@ -21,8 +21,7 @@
 }
 .links{
   display: inline-flex;
-  
-  
+   
 }
 
 .about{
@@ -57,18 +56,11 @@
   margin-left: 5vh;
 }
 
-.projectList{
-  display:flex;
-  margin-top: 10vh;
-  justify-content: center;
-}
 
-.card{
-  width: 18rem;
-  margin:5px;
-  padding:5px;
-  border:2px solid black;
-  border-radius:5px;
+.cards{
+margin-top: 20vh;
+display: flex;
+justify-content: space-evenly;
 }
 
 .contact{
