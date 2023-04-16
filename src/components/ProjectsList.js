@@ -9,13 +9,11 @@ import CardMedia from '@mui/material/CardMedia';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
-
-
-
 const Projects =()=>{
   return (
+  
     <div className='cards'>
-     <Card sx={{ maxWidth: 345 , border:"2px solid black", font_family:'Quicksand' }}>
+     <Card sx={{ maxWidth: 345 , border:"2px solid black", fontFamily:'Quicksand-Medium' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -34,7 +32,7 @@ const Projects =()=>{
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <Button size="small" href="https://klair8.github.io/HACKATHON-1">
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://klair8.github.io/HACKATHON-1">
           See More
         </Button>
       </CardActions>
@@ -58,7 +56,7 @@ const Projects =()=>{
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <Button size="small" href="https://my-booklist.onrender.com">
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://my-booklist.onrender.com">
           See More
         </Button>
       </CardActions>
@@ -82,7 +80,7 @@ const Projects =()=>{
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <Button size="small" href="https://dream-learning.vercel.app">
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://dream-learning.vercel.app">
           See More
         </Button>
       </CardActions>

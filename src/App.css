@@ -1,11 +1,18 @@
 *{
   font-family: Quicksand;
-
 } 
 
 .me-auto{
   text-decoration: none;
 }
+
+/* Navbar CSS */
+.MuiStack-root {
+  margin-top: 3vh;
+  margin-left: 1vh;
+}
+
+/* Homepage CSS */
 .homePage{
   margin-top: 3vh;
   margin-left:5vh;
@@ -24,6 +31,7 @@
    
 }
 
+/* About CSS */
 .about{
   margin-top: 5vh;
   display: flex;
@@ -56,13 +64,14 @@
   margin-left: 5vh;
 }
 
-
+/* Projects CSS */
 .cards{
 margin-top: 20vh;
 display: flex;
 justify-content: space-evenly;
 }
 
+/* Contact CSS */
 .contact{
   margin-top: 10vh;
   display: flex;
