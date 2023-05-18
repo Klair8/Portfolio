@@ -105,7 +105,7 @@ const Projects =()=>{
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://movies-app-kappa-eight.vercel.app">
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://movies-app-klair8.vercel.app">
           See More
         </Button>
       </CardActions>
