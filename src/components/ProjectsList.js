@@ -1,7 +1,8 @@
 import * as React from 'react';
 import SpaceInvader from '../assets/SpaceInvader.png';
-import MyBookList from '../assets/MyBookList.png'
-import NLPStoryTelling from '../assets/NLPStoryTelling.png'
+import MyBookList from '../assets/MyBookList.png';
+import MoviesApp from '../assets/MoviesApp.png';
+import NLP from '../assets/NLP.png'
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
@@ -11,7 +12,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 const Projects =()=>{
   return (
-  
+  <div className='my-component'>
     <div className='cards'>
      <Card sx={{ maxWidth: 345 , border:"2px solid black", fontFamily:'Quicksand-Medium' }}>
       <CardActionArea>
@@ -66,7 +67,7 @@ const Projects =()=>{
         <CardMedia
           component="img"
           height="280"
-          image={NLPStoryTelling}
+          image={NLP}
           alt="Story Telling for kids"
         />
         <CardContent>
@@ -75,7 +76,7 @@ const Projects =()=>{
           NLP Project
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Learning Process for Kids using Node.Js and React.
+          Learning Process for Kids . Full Stack process using Node.Js and React.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -85,7 +86,32 @@ const Projects =()=>{
         </Button>
       </CardActions>
     </Card>
+    <Card sx={{ maxWidth: 345 , border:"2px solid black"}}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="280"
+          image={MoviesApp}
+          alt="Movies Search App"
+        />
+        <CardContent>
+        <br></br>
+          <Typography gutterBottom variant="h5" component="div" level="h1" fontSize="lg" textColor="black" >
+          Movies & Series App
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Search App for Movies and Series using Redux and React.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://movies-app-kappa-eight.vercel.app">
+          See More
+        </Button>
+      </CardActions>
+    </Card>
     </div>
+  </div>
   )
 }
 

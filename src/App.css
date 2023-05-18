@@ -2,8 +2,15 @@
   font-family: Quicksand;
 } 
 
+/* .my-component {
+  background-image: url('./assets/Hexagonal.jpg');
+  background-repeat: no-repeat;
+  background-position: 100%;
+} */
+
 .me-auto{
   text-decoration: none;
+
 }
 
 /* Navbar CSS */
@@ -21,6 +28,8 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  color:black;
+  font-weight:600 ;
 }
 
 .imgHomepage{
@@ -38,6 +47,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
+  color:black;
+  font-weight:600 ;
 }
 
 .about p {
@@ -79,6 +90,8 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
+  color:black;
+  font-weight:600 ;
 }
 
 .contact p {
@@ -98,6 +111,7 @@ justify-content: space-evenly;
 .footer{
   margin-top:22vh;
   margin-left: 30vh;
+  
 }
 
 

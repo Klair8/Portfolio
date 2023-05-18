@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
 
 
 const About =()=>{
     return(
+        <div className='my-component'>
         <div className='about'>
         <h1 style={{fontSize:70, fontFamily:'Quicksand-SemiBold'}}>About Me</h1>
         <p>Recent full stack developer graduate who works with both the front
@@ -35,6 +37,7 @@ const About =()=>{
                     SimilarWeb, Illustrator </li>
                  </ul>
              </div>
+        </div>
         </div>
         </div>
     )

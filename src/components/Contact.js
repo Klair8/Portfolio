@@ -13,7 +13,7 @@ const Contact =()=>{
     setShowLinks(true);
   }
     return(
-        <div>
+      <div className='my-component'>
         <Container maxWidth="md">
             <div className='contact'>
                 <h1 style={{fontSize:70, fontFamily:'Quicksand-SemiBold'}}> Get In Touch</h1>

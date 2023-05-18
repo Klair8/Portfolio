@@ -5,18 +5,22 @@ import Stack from '@mui/material/Stack'
 
 
 const Header =()=>{
+  
+
     return(
-      <Stack spacing={2} direction="row">
-        <Button component = {Link} to='/'>C/S</Button>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/'>Home</Button>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/About'>About</Button>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/Projects'>Projects</Button>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} component = {Link} to='/Contact'>Contact</Button>
+      
+      <Stack spacing={2} direction="row" >
+        <Button sx= {{ color: 'inherit' }} component = {Link} to='/'>C/S</Button>
+        {/* color: '#fff'  */}
+      <Button variant="outlined" sx= {{ color: 'inherit', borderRadius: 28 , borderColor: 'black' }} component = {Link} to='/'>Home</Button>
+      <Button variant="outlined" sx= {{ color: 'inherit', borderRadius: 28 , borderColor: 'black'}} component = {Link} to='/About'>About</Button>
+      <Button variant="outlined" sx= {{ color: 'inherit', borderRadius: 28 , borderColor: 'black' }} component = {Link} to='/Projects'>Projects</Button>
+      <Button variant="outlined" sx= {{ color: 'inherit', borderRadius: 28 ,borderColor: 'black' }} component = {Link} to='/Contact'>Contact</Button>
       <Button
             onClick={() => {
               window.open("https://drive.google.com/file/d/1Tnjbh0slCqQNWEXJ_NlPViJ1-PSm1E9X/view?usp=sharing");
             }}
-            className='resumebtn'><span>Resume</span>
+            sx= {{ color: 'inherit' }} className='resumebtn'><span>Resume</span>
           </Button>
       </Stack>
           );

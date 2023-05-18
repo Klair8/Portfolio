@@ -5,6 +5,7 @@ import { FaGithub,FaLinkedinIn} from 'react-icons/fa';
 
 const Home =()=>{
     return(
+        <div className='my-component'>
         <div className='homePage' >
         <div className='txtHomepage'>
             <h1 style={{fontSize:70, fontFamily:'Quicksand-SemiBold'}}>Hello!</h1>
@@ -25,6 +26,7 @@ const Home =()=>{
          <img src={Photo2}
               style={{width: 450, height: 450, borderRadius: 450/ 2}} 
               />
+          </div>
           </div>
           </div>
     )
