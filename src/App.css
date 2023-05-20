@@ -2,15 +2,9 @@
   font-family: Quicksand;
 } 
 
-/* .my-component {
-  background-image: url('./assets/Hexagonal.jpg');
-  background-repeat: no-repeat;
-  background-position: 100%;
-} */
 
 .me-auto{
   text-decoration: none;
-
 }
 
 /* Navbar CSS */
@@ -76,11 +70,14 @@
 }
 
 /* Projects CSS */
-.cards{
+
+.cardsprojects{
 margin-top: 20vh;
 display: flex;
 justify-content: space-evenly;
 }
+
+
 
 /* Contact CSS */
 .contact{

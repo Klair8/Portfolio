@@ -12,57 +12,8 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 const Projects =()=>{
   return (
-  <div className='my-component'>
-    <div className='cards'>
-     <Card sx={{ maxWidth: 345 , border:"2px solid black", fontFamily:'Quicksand-Medium' }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="280"
-          image={SpaceInvader}
-          alt="Space Invaders Games"
-        />
-        <CardContent>
-          <br></br>
-          <Typography gutterBottom variant="h5" component="div" level="h1" fontSize="lg" textColor="black" >
-            Space Invaders
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Old School Space Invaders Game only with Javascript.
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://klair8.github.io/HACKATHON-1">
-          See More
-        </Button>
-      </CardActions>
-    </Card>
-    <Card sx={{ maxWidth: 345 , border:"2px solid black" }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="280"
-          image={MyBookList}
-          alt="Book Repertory"
-        />
-        <CardContent>
-        <br></br>
-          <Typography gutterBottom variant="h5" component="div" level="h1" fontSize="lg" textColor="black" >
-          Book Repertory
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          Book Repertory, created with Node.js and REST API technic.
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://my-booklist.onrender.com">
-          See More
-        </Button>
-      </CardActions>
-    </Card>
-    <Card sx={{ maxWidth: 345 , border:"2px solid black"}}>
+    <div className='cardsprojects'>
+    <Card className= 'card' sx={{ maxWidth: 345 , border:"2px solid black", margin:"10px"}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -76,7 +27,8 @@ const Projects =()=>{
           NLP Project
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Learning Process for Kids . Full Stack process using Node.Js and React.
+          Learning Process for Kids. 
+          Full Stack process using Node.Js and React.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -84,9 +36,12 @@ const Projects =()=>{
       <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://dream-learning.vercel.app">
           See More
         </Button>
+        <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/Final-Project-Client">
+          Github Code
+        </Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 , border:"2px solid black"}}>
+    <Card className= 'card' sx={{ maxWidth: 345 , border:"2px solid black", margin:"10px"}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -100,7 +55,7 @@ const Projects =()=>{
           Movies & Series App
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Search App for Movies and Series using Redux and React.
+          Search App for Movies and Series. Redux and React.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -108,10 +63,66 @@ const Projects =()=>{
       <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://movies-app-klair8.vercel.app">
           See More
         </Button>
+        <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/Movies-Series-App">
+          Github Code
+        </Button>
+      </CardActions>
+    </Card>
+    <Card className= 'card' sx={{ maxWidth: 345 , border:"2px solid black", margin:"10px"}}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="280"
+          image={MyBookList}
+          alt="Book Repertory"
+        />
+        <CardContent>
+        <br></br>
+          <Typography gutterBottom variant="h5" component="div" level="h1" fontSize="lg" textColor="black" >
+          Book Repertory
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Book Repertory. Node.js and REST API technic.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://my-booklist.onrender.com">
+          See More
+        </Button>
+        <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/HACKATHON">
+          Github Code
+        </Button>
+      </CardActions>
+    </Card>
+    <Card className= 'card' sx={{ maxWidth: 345 , border:"2px solid black", margin:"10px"}}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="280"
+          image={SpaceInvader}
+          alt="Space Invaders Games"
+        />
+        <CardContent>
+          <br></br>
+          <Typography gutterBottom variant="h5" component="div" level="h1" fontSize="lg" textColor="black" >
+            Space Invaders
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Old School Space Invaders Game . Only Javascript.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+      <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://klair8.github.io/HACKATHON-1">
+          See More
+        </Button>
+        <Button variant="outlined" sx= {{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/HACKATHON-1">
+          Github Code
+        </Button>
       </CardActions>
     </Card>
     </div>
-  </div>
   )
 }
 
