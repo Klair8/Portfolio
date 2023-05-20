@@ -18,7 +18,7 @@ const Header =()=>{
       <Button variant="outlined" sx= {{ color: 'inherit', borderRadius: 28 ,borderColor: 'black' }} component = {Link} to='/Contact'>Contact</Button>
       <Button
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1Tnjbh0slCqQNWEXJ_NlPViJ1-PSm1E9X/view?usp=sharing");
+              window.open("https://drive.google.com/file/d/1YKtwSjKZefKmozbp84XHH_3rZu7U7DtD/view?usp=sharing");
             }}
             sx= {{ color: 'inherit' }} className='resumebtn'><span>Resume</span>
           </Button>
