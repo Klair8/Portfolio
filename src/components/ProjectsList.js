@@ -14,7 +14,7 @@ import { Grid, Button, CardActionArea, CardActions } from '@mui/material';
 const Projects = () => {
   return (
     <div className="cardsprojects">
-      <Grid container spacing={4} marginLeft={'10vh'} marginRight={'10vh'}>
+      <Grid container spacing={2} marginLeft={'5vh'} marginRight={'5vh'}>
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ border: "2px solid black", margin: "10px" }}>
             <CardActionArea>
@@ -36,14 +36,14 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://dream-learning.vercel.app">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://dream-learning.vercel.app">
                 See More
               </Button>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/Final-Project-Server">
-                Github - Server Side -
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://github.com/Klair8/Final-Project-Server">
+                Github - Server Side
               </Button>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/Final-Project-Client">
-                Github - Client Side -
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://github.com/Klair8/Final-Project-Client">
+                Github - Client Side
               </Button>
             </CardActions>
           </Card>
@@ -68,10 +68,10 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://movies-app-klair8.vercel.app">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://movies-app-klair8.vercel.app">
                 See More
               </Button>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/Movies-Series-App">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://github.com/Klair8/Movies-Series-App">
                 Github Code
               </Button>
             </CardActions>
@@ -97,10 +97,10 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://my-booklist.onrender.com">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://my-booklist.onrender.com">
                 See More
               </Button>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/HACKATHON">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://github.com/Klair8/HACKATHON">
                 Github Code
               </Button>
             </CardActions>
@@ -126,10 +126,10 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://klair8.github.io/HACKATHON-1">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://klair8.github.io/HACKATHON-1">
                 See More
               </Button>
-              <Button variant="outlined" sx={{ borderRadius: 28 }} size="large" href="https://github.com/Klair8/HACKATHON-1">
+              <Button variant="outlined" sx={{ borderRadius: 28 }} size="small" href="https://github.com/Klair8/HACKATHON-1">
                 Github Code
               </Button>
             </CardActions>

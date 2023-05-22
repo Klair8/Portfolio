@@ -35,29 +35,29 @@
 }
 
 /* About CSS */
-.about{
+.about {
   margin-top: 5vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  color:black;
-  font-weight:600 ;
+  color: black;
+  font-weight: 600;
 }
 
 .about p {
   font-size: 20px;
   margin-top: 2vh;
-  margin-left:5vh;
+  margin-left: 5vh;
   text-align: justify;
   max-width: 90vh;
-
-}
-.about h1{
-  margin-left:5vh;
 }
 
-.skills{
+.about h1 {
+  margin-left: 5vh;
+}
+
+.skills {
   font-size: 20px;
   display: flex;
   justify-content: flex-start;
@@ -65,16 +65,44 @@
   margin: 5vh;
 }
 
-.skills2{
+.skills2 {
   margin-left: 5vh;
 }
 
-/* Projects CSS */
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about {
+    margin-top: 3vh;
+  }
+  
+  .about p {
+    font-size: 16px;
+    margin-left: 2vh;
+    max-width: 90%;
+  }
 
-.cardsprojects{
-margin-top: 20vh;
-display: flex;
-justify-content: space-evenly;
+  .about h1 {
+    margin-left: 2vh;
+    font-size: 40px;
+  }
+
+  .skills {
+    margin: 2vh;
+  }
+
+  .skills1, .skills2 {
+    margin-left: 2vh;
+  }
+
+  .skills1 ul, .skills2 ul {
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .skills1 ul li, .skills2 ul li {
+    list-style-type: none;
+    margin-bottom: 1vh;
+  }
 }
 
 
